@@ -24,11 +24,11 @@ function pegarDados(){
     let checkbox_enf = document.getElementById("enf");
 
     if(checkbox_info.checked){
-        document.getElementById("campoinfo").innerHTML = ("Seu curso é: Informática")
+        document.getElementById("campoInfo").innerHTML = ("Seu curso é: Informática")
     }if(checkbox_adm.checked){
-        document.getElementById("campoadm").innerHTML = ("Seu curso é: Administração")
+        document.getElementById("campoAdm").innerHTML = ("Seu curso é: Administração")
     }if(checkbox_enf.checked){
-        document.getElementById("campoenf").innerHTML = ("Seu curso é: Enfermagem")
+        document.getElementById("campoEnf").innerHTML = ("Seu curso é: Enfermagem")
     }
 
 
@@ -41,13 +41,13 @@ function pegarDados(){
     }
 
     let ocult = document.getElementById("oculto").value;
-    document.getElementById("campooculto").innerHTML = ("Valor oculto: " + ocult);
+    document.getElementById("campoOculto").innerHTML = ("Valor oculto: " + ocult);
     let number = document.getElementById("num").value;
-    document.getElementById("camponum").innerHTML = ("Campo do Tipo Number: " + number);
+    document.getElementById("campoNum").innerHTML = ("Campo do Tipo Number: " + number);
     let data = document.getElementById("data").value;
-    document.getElementById("campodata").innerHTML = ("Campo de Data: " + data);    
+    document.getElementById("campoData").innerHTML = ("Campo de Data: " + data);    
     let hora = document.getElementById("hora").value;
-    document.getElementById("campohora").innerHTML = ("Campo de Hora: " + hora);    
+    document.getElementById("campoHora").innerHTML = ("Campo de Hora: " + hora);    
 
     let range = document.getElementById("range").value;
     document.getElementById("camporange").innerHTML = ("Valor Hange/Range: " + range);    
